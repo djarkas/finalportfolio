@@ -1,0 +1,109 @@
+.App{
+    width: 100%;
+    height:100%;
+}
+
+/*this is  navbar*/
+.Navbar{
+    background-color: #9dbcbc;
+    width: 100%;
+    height:80px;
+    font: Arial;
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.Navbar .leftSide {
+    flex: 50%;
+    text-decoration: none;
+    color:#f5f4ea;
+    font-size: 40px;
+    margin-right: 15px;
+    font-family: Andale Mono, monospace	;
+    flex: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.Navbar .rightSide {
+    flex: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Navbar .rightSide .links{
+    max-height:80px;
+
+}
+
+.Navbar .rightSide .links a{
+    text-decoration: none;
+    color:#f5f4ea;
+    font-size: 25px;
+    margin-right: 15px;
+    font-family: Andale Mono, monospace	;
+
+}
+
+.Navbar .rightSide button {
+    display:none;
+    margin-right: 20px;
+}
+
+.Navbar .rightSide #hide{
+    display: flex;  
+}
+
+@media only screen and (max-width: 850px) {
+    .Navbar .rightSide .links a {
+        font-size:20px;
+    } 
+}
+
+@media only screen and (max-width: 750px) {
+    .Navbar .rightSide .links a {
+        font-size:15px;
+    } 
+}
+
+@media only screen and (max-width: 750px) {
+    .Navbar .rightSide button {
+        display:flex;
+    }
+
+.Navbar .rightSide .links {
+    display: none;
+}
+.Navbar .rightSide #hide {
+    position: absolute;
+    right:0px;
+    top:80px;
+    height:230px;
+    max-height: 230px;
+    width:100%;
+    background-color: #9dbcbc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Navbar .rightSide #hide a{
+    margin: 10px;
+    font-size: 25px;
+    font-family: Andale Mono, monospace	;
+}
+} 
+
+
+
+
+
+
+
+
+
+
+
+

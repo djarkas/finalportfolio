@@ -1,0 +1,102 @@
+.ordermobproject{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.projectflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 30px;
+    
+    
+}
+
+
+.ordermobproject{
+	display: grid;
+	// grid-template-columns: 300px;
+	// grid-template-rows: 300px;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	box-shadow: 0 0 40px rgba(0,0,0);
+}
+.ordermobproject img{
+	width: 100%;
+	grid-area: 1 / 1 / span 1 / span 1;
+	transition: 0.3s ease-out;
+}
+
+
+.ordermobproject:hover img{
+	transform: scale(1.2, 1.2);
+}
+
+.projectsok{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.projectsok{
+    display: grid;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	box-shadow: 0 0 40px rgba(0,0,0);
+}
+.projectsok img{
+	width: 100%;
+	grid-area: 1 / 1 / span 1 / span 1;
+	transition: 0.3s ease-out;
+}
+.projectsok:hover img{
+	transform: scale(1.2, 1.2);
+}
+
+
+.boxy {
+    width: auto;
+    border: 5px solid #9dbcbc;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(226, 232, 236);
+  }
+
+  .projname{
+color:#006666;
+font-family: Andale Mono, monospace	;
+  }
+
+  .hired{
+    font-family: Andale Mono, monospace	;
+    font-size: 15px;
+  }
+
+  .title{
+    font-family: Andale Mono, monospace	;
+    color:#006666;
+    font-size: 40px;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px solid #9dbcbc; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+  }
+
+ 
+ .title span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
